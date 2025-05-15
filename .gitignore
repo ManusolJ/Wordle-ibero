@@ -3,7 +3,6 @@
 # robo.js
 .robo/*
 .prettierrc.mjs
-.npmrc
 # dependencies
 /node_modules
 /.pnp
