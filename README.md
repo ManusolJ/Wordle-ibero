@@ -2,7 +2,7 @@
 
 ---
 
-# Hiya, wordle 🌈
+# Hiya, wordle IBERO! 🌈
 
 Welcome to your fresh **[Robo.js](https://robojs.dev)** project!
 

@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react'
-import { useDiscordSdk } from '../hooks/useDiscordSdk'
+import { useDiscordSdk } from '../../hooks/useDiscordSdk'
+import './style.css'
 
 /**
  * This is your Discord Activity's main component. Customize it as you like!
@@ -28,13 +29,8 @@ export const Activity = () => {
 	}, [authenticated, discordSdk])
 
 	return (
-		<div>
-			<img src="/rocket.png" className="logo" alt="Discord" />
-			<h1>Hello, World</h1>
-			{channelName ? <h3>#{channelName}</h3> : <h3>{status}</h3>}
-			<small>
-				Powered by <strong>Robo.js</strong>
-			</small>
+		<div className="wrapper">
+			<div className="game-panel"></div>
 		</div>
 	)
 }
