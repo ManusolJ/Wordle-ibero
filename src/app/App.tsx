@@ -1,5 +1,5 @@
 import { DiscordContextProvider } from '../hooks/useDiscordSdk'
-import { Activity } from './main/Activity'
+import { Activity } from './main/main'
 import './App.css'
 
 /**

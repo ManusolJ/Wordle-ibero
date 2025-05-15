@@ -2,11 +2,14 @@
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+	justify-content: center;
+	align-items: center;
 	background-color: white;
 	overflow: hidden;
 }
 
-/* .game-panel {
+.game-panel {
 	width: 250px;
 	height: 400px;
-} */
+	background-color: black;
+}

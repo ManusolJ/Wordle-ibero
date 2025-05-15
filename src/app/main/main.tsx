@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
 import { useDiscordSdk } from '../../hooks/useDiscordSdk'
-import './style.css'
+import './main.css'
 
 /**
  * This is your Discord Activity's main component. Customize it as you like!
